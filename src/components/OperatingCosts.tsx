@@ -1,6 +1,6 @@
 export default function OperatingCosts() {
   return (
-    <section className="h-screen w-full flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100">
+    <section className="h-screen w-full flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 relative">
       <div className="text-center max-w-4xl px-6">
         <h1 className="text-5xl font-bold text-gray-900 mb-8"
             style={{ fontFamily: 'HeavyItalic, Impact, Arial Black, sans-serif' }}>
@@ -10,7 +10,7 @@ export default function OperatingCosts() {
         <div className="bg-white rounded-lg shadow-lg p-8 space-y-8">
           
           {/* Backend Cost Table */}
-          <div>
+          <div className="relative">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Backend Cost</h2>
             <table className="w-full border-collapse border border-gray-300 mb-4 text-gray-900">
               <thead>
@@ -47,6 +47,20 @@ export default function OperatingCosts() {
               <p>• <strong>1,000 emails captured:</strong> ~$16</p>
               <p>• <strong>10,000 emails captured:</strong> ~$161</p>
             </div>
+
+            {/* Good ROI Image - positioned relative to this section */}
+            <img
+              src="/assets/digital/good_roi.png"
+              alt="Good ROI"
+              className="absolute"
+              style={{
+                top: '310px',
+                right: '0px',
+                width: '420px',
+                height: 'auto',
+                zIndex: 10
+              }}
+            />
           </div>
 
           {/* Frontend Cost Table */}
