@@ -25,9 +25,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
       >
         {children}
+        <div className="fixed bottom-4 right-6 text-gray-600 text-sm font-medium z-50">
+          LailaCorp™ 2025 ®
+        </div>
       </body>
     </html>
   );
