@@ -1,11 +1,14 @@
-import LeadSlide from "@/components/LeadSlide";
-import DenialWebsite1 from "@/components/DenialWebsite1";
-import DenialWebsite2 from "@/components/DenialWebsite2";
-import DenialWebsite3 from "@/components/DenialWebsite3";
-import DenialWebsiteSysArch from "@/components/DenialWebsiteSysArch";
-import StoneLaila from "@/components/StoneLaila";
-import OperatingCosts from "@/components/OperatingCosts";
-import DenialWebsiteSummary from "@/components/DenialWebsiteSummary";
+import LeadSlide from "@/components/DenialWebsite/LeadSlide";
+import DenialWebsite1 from "@/components/DenialWebsite/DenialWebsite1";
+import DenialWebsite2 from "@/components/DenialWebsite/DenialWebsite2";
+import DenialWebsite3 from "@/components/DenialWebsite/DenialWebsite3";
+import DenialWebsiteSysArch from "@/components/DenialWebsite/DenialWebsiteSysArch";
+import StoneLaila from "@/components/DenialWebsite/StoneLaila";
+import OperatingCosts from "@/components/DenialWebsite/OperatingCosts";
+import DenialWebsiteSummary from "@/components/DenialWebsite/DenialWebsiteSummary";
+import DenialPayphone1 from "@/components/DenialPayphone/DenialPayphone1";
+import DenialPayphone2 from "@/components/DenialPayphone/DenialPayphone2";
+import DenialPayphone3 from "@/components/DenialPayphone/DenialPayphone3";
 
 export default function Home() {
   return (
@@ -18,6 +21,9 @@ export default function Home() {
       <StoneLaila />
       <OperatingCosts />
       <DenialWebsiteSummary />
+      <DenialPayphone1 />
+      <DenialPayphone2 />
+      <DenialPayphone3 />
     </div>
   );
 }
