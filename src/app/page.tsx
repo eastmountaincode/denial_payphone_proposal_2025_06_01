@@ -9,13 +9,20 @@ import DenialWebsiteSummary from "@/components/DenialWebsite/DenialWebsiteSummar
 import DenialPayphone1 from "@/components/DenialPayphone/DenialPayphone1";
 import DenialPayphone2 from "@/components/DenialPayphone/DenialPayphone2";
 import DenialPayphone3 from "@/components/DenialPayphone/DenialPayphone3";
+import DenialPayphoneAppFlow from "@/components/DenialPayphone/DenialPayphoneAppFlow";
+import DenialPayphoneDataCollection from "@/components/DenialPayphone/DenialPayphoneDataCollection";
+import DenialPayphoneButtonsCloseup from "@/components/DenialPayphone/DenialPayphoneButtonsCloseup";
+import DenialPayphoneOperatingCosts from "@/components/DenialPayphone/DenialPayphoneOperatingCosts";
+import DenialPayphoneSummary from "@/components/DenialPayphone/DenialPayphoneSummary";
+import ProjectProposalOverview from "@/components/ProjectProposalOverview";
+import EndSlide from "@/components/EndSlide";
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <LeadSlide />
       <DenialWebsite1 />
-      <DenialWebsite2 />
+      <DenialWebsite2 />    
       <DenialWebsite3 />
       <DenialWebsiteSysArch />
       <StoneLaila />
@@ -23,7 +30,14 @@ export default function Home() {
       <DenialWebsiteSummary />
       <DenialPayphone1 />
       <DenialPayphone2 />
+      <DenialPayphoneButtonsCloseup />  
       <DenialPayphone3 />
+      <DenialPayphoneAppFlow />
+      <DenialPayphoneDataCollection />
+      <DenialPayphoneOperatingCosts />
+      <DenialPayphoneSummary />
+      <ProjectProposalOverview />   
+      <EndSlide />
     </div>
   );
 }
