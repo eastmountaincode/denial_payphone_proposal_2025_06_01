@@ -15,6 +15,7 @@ import DenialPayphoneButtonsCloseup from "@/components/DenialPayphone/DenialPayp
 import DenialPayphoneOperatingCosts from "@/components/DenialPayphone/DenialPayphoneOperatingCosts";
 import DenialPayphoneSummary from "@/components/DenialPayphone/DenialPayphoneSummary";
 import ProjectProposalOverview from "@/components/ProjectProposalOverview";
+import HourlyBreakdown from "@/components/HourlyBreakdown";
 import EndSlide from "@/components/EndSlide";
 
 export default function Home() {
@@ -36,7 +37,8 @@ export default function Home() {
       <DenialPayphoneDataCollection />
       <DenialPayphoneOperatingCosts />
       <DenialPayphoneSummary />
-      <ProjectProposalOverview />   
+      <ProjectProposalOverview />
+      <HourlyBreakdown />
       <EndSlide />
     </div>
   );
