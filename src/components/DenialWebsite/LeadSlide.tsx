@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { FaStar } from "react-icons/fa";
+import { FaStar, FaDesktop } from "react-icons/fa";
 
 interface LeadSlideProps {
   // Add props here as needed
@@ -103,6 +103,12 @@ export default function LeadSlide({}: LeadSlideProps) {
                  {isBlownUp ? 'Deflate' : 'Blow Up'}
              </button>
          </div>
+      </div>
+      
+      {/* View on Desktop Message */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex items-center gap-2 text-gray-600 text-sm">
+        <FaDesktop />
+        <span>This site is best viewed on desktop</span>
       </div>
       
       {/* Jump to Hourly Breakdown Button */}
