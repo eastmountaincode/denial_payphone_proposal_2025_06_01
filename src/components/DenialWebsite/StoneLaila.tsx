@@ -1,6 +1,6 @@
 export default function StoneLaila() {
   return (
-    <section className="h-screen w-full flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
+    <section className="h-screen w-full flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100">
       <div className="text-center">
         <img
           src="/assets/digital/stone_laila.png"

@@ -1,6 +1,6 @@
 export default function DenialPayphone2() {
   return (
-    <section className="h-screen w-full flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
+    <section className="h-screen w-full flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100">
       <div className="flex items-center justify-between max-w-6xl px-6 w-full">
         {/* Text Section - Left */}
         <div className="flex-1 pr-8">

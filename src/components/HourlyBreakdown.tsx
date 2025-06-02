@@ -21,32 +21,49 @@ export default function HourlyBreakdown() {
             </h2>
             <div className="text-left space-y-4">
               <p className="text-lg text-gray-700 font-semibold">Development Fee Breakdown</p>
-              {/* <div className="space-y-3">
-                <div className="flex justify-between">
-                  <span className="text-gray-900">Frontend Development</span>
-                  <span className="text-gray-900 font-semibold">24 hrs × $25</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-900">Backend Development</span>
-                  <span className="text-gray-900 font-semibold">18 hrs × $25</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-900">UI/UX Design</span>
-                  <span className="text-gray-900 font-semibold">10 hrs × $25</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-900">Testing & Deployment</span>
+              <div className="space-y-3">
+                <div className="text-sm font-medium text-gray-800 mb-2">Frontend Development (24 hrs)</div>
+                <div className="flex justify-between ml-4">
+                  <span className="text-gray-900">UI/UX design & implementation</span>
                   <span className="text-gray-900 font-semibold">8 hrs × $25</span>
                 </div>
-              </div> */}
+                <div className="flex justify-between ml-4">
+                  <span className="text-gray-900">Web Audio API integration</span>
+                  <span className="text-gray-900 font-semibold">8 hrs × $25</span>
+                </div>
+                <div className="flex justify-between ml-4">
+                  <span className="text-gray-900">Physics-based graphics</span>
+                  <span className="text-gray-900 font-semibold">8 hrs × $25</span>
+                </div>
+                
+                <div className="text-sm font-medium text-gray-800 mb-2 mt-4">Backend Development (24 hrs)</div>
+                <div className="flex justify-between ml-4">
+                  <span className="text-gray-900">Database setup & API development</span>
+                  <span className="text-gray-900 font-semibold">10 hrs × $25</span>
+                </div>
+                <div className="flex justify-between ml-4">
+                  <span className="text-gray-900">AI transcription integration</span>
+                  <span className="text-gray-900 font-semibold">6 hrs × $25</span>
+                </div>
+                <div className="flex justify-between ml-4">
+                  <span className="text-gray-900">Email integration</span>
+                  <span className="text-gray-900 font-semibold">8 hrs × $25</span>
+                </div>
+                
+                <div className="text-sm font-medium text-gray-800 mb-2 mt-4">Testing & Deployment (4 hrs)</div>
+                <div className="flex justify-between ml-4">
+                  <span className="text-gray-900">Testing, deployment</span>
+                  <span className="text-gray-900 font-semibold">4 hrs × $25</span>
+                </div>
+              </div>
               <div className="mt-6 pt-4 border-t border-gray-200">
                 <div className="flex justify-between">
                   <span className="text-lg font-semibold text-gray-900">Total Hours:</span>
-                  <span className="text-lg font-bold text-gray-900">60 hours</span>
+                  <span className="text-lg font-bold text-gray-900">52 hours</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-lg font-semibold text-gray-900">Total Fee:</span>
-                  <span className="text-2xl font-bold text-gray-900">$1,500</span>
+                  <span className="text-2xl font-bold text-gray-900">$1,300</span>
                 </div>
               </div>
             </div>
@@ -61,35 +78,58 @@ export default function HourlyBreakdown() {
             <div className="text-left space-y-4">
               <p className="text-lg text-gray-700 font-semibold">Development Fee Breakdown</p>
               <div className="space-y-3">
-                {/* <div className="flex justify-between">
-                  <span className="text-gray-900">Hardware Setup</span>
-                  <span className="text-gray-900 font-semibold">15 hrs × $25</span>
+                <div className="text-sm font-medium text-gray-800 mb-2">Software Development (22 hrs)</div>
+                <div className="flex justify-between ml-4">
+                  <span className="text-gray-900">Process supervisor setup & testing</span>
+                  <span className="text-gray-900 font-semibold">6 hrs × $25</span>
                 </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-900">Python Script Development</span>
-                  <span className="text-gray-900 font-semibold">12 hrs × $25</span>
+                <div className="flex justify-between ml-4">
+                  <span className="text-gray-900">Buttons & light setup/logic</span>
+                  <span className="text-gray-900 font-semibold">8 hrs × $25</span>
                 </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-900">Installation & Testing</span>
+                <div className="flex justify-between ml-4">
+                  <span className="text-gray-900">Recording & audio storage functionality</span>
+                  <span className="text-gray-900 font-semibold">8 hrs × $25</span>
+                </div>
+                
+                <div className="text-sm font-medium text-gray-800 mb-2 mt-4">Hardware (16 hrs)</div>
+                <div className="flex justify-between ml-4">
+                  <span className="text-gray-900">Installation, panel fabrication, wiring</span>
                   <span className="text-gray-900 font-semibold">10 hrs × $25</span>
                 </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-900">Travel & Deployment</span>
-                  <span className="text-gray-900 font-semibold">23 hrs × $25</span>
-                </div> */}
+                <div className="flex justify-between ml-4">
+                  <span className="text-gray-900">Solar panel installation & testing</span>
+                  <span className="text-gray-900 font-semibold">6 hrs × $25</span>
+                </div>
+                
+                <div className="text-sm font-medium text-gray-800 mb-2 mt-4">Logistics (4 hrs)</div>
+                <div className="flex justify-between ml-4">
+                  <span className="text-gray-900">Research, planning, graphic design, shipping</span>
+                  <span className="text-gray-900 font-semibold">4 hrs × $25</span>
+                </div>
               </div>
+              
+              {/* Spacer to align totals with other card */}
+              <div className="h-5"></div>
+              
               <div className="mt-6 pt-4 border-t border-gray-200">
                 <div className="flex justify-between">
                   <span className="text-lg font-semibold text-gray-900">Total Hours:</span>
-                  <span className="text-lg font-bold text-gray-900">60 hours</span>
+                  <span className="text-lg font-bold text-gray-900">42 hours</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-lg font-semibold text-gray-900">Total Fee:</span>
-                  <span className="text-2xl font-bold text-gray-900">$1,500</span>
+                  <span className="text-2xl font-bold text-gray-900">$1,050</span>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        
+        <div className="text-center mt-6">
+          <p className="text-lg text-gray-600 italic">
+            Note: Hourly breakdowns are estimates and may vary.
+          </p>
         </div>
       </div>
     </section>

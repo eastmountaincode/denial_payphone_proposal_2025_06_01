@@ -1,6 +1,6 @@
 export default function OperatingCosts() {
   return (
-    <section className="h-screen w-full flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 relative">
+    <section className="h-screen w-full flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 relative">
       <div className="text-center max-w-4xl px-6">
         <h1 className="text-5xl font-bold text-gray-900 mb-8"
             style={{ fontFamily: 'HeavyItalic, Impact, Arial Black, sans-serif' }}>

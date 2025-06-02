@@ -1,6 +1,6 @@
 export default function ProjectProposalOverview() {
   return (
-    <section className="h-screen w-full flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100">
+    <section className="h-screen w-full flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
       <div className="text-center max-w-6xl px-6">
         <h1 className="text-5xl font-bold text-gray-900 mb-8"
             style={{ fontFamily: 'HeavyItalic, Impact, Arial Black, sans-serif' }}>
@@ -12,7 +12,8 @@ export default function ProjectProposalOverview() {
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h2 className="text-3xl font-bold text-blue-600 mb-6"
                 style={{ fontFamily: 'HeavyItalic, Impact, Arial Black, sans-serif' }}>
-              1 → Denial Hotline
+              Denial Hotline<br />
+              <span style={{ fontFamily: 'Impact, Arial Black, sans-serif' }}>(</span>digital<span style={{ fontFamily: 'Impact, Arial Black, sans-serif' }}>)</span>
             </h2>
             <div className="text-left space-y-4">
               <p className="text-lg text-gray-700 font-semibold">Digital Solution</p>
@@ -47,7 +48,8 @@ export default function ProjectProposalOverview() {
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h2 className="text-3xl font-bold text-orange-600 mb-6"
                 style={{ fontFamily: 'HeavyItalic, Impact, Arial Black, sans-serif' }}>
-              2 → Denial Payphone
+              Denial Payphone<br />
+              <span style={{ fontFamily: 'Impact, Arial Black, sans-serif' }}>(</span>physical<span style={{ fontFamily: 'Impact, Arial Black, sans-serif' }}>)</span>
             </h2>
             <div className="text-left space-y-4">
               <p className="text-lg text-gray-700 font-semibold">Physical Solution</p>
