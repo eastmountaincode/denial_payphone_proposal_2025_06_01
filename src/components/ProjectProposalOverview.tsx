@@ -60,7 +60,7 @@ export default function ProjectProposalOverview() {
               <div className="h-4"></div>
               <div className="mt-6 pt-4 border-t border-gray-200">
                 <p className="text-sm text-gray-500">Operating cost</p>
-                <p className="text-2xl font-bold text-gray-900">$3,945</p>
+                <p className="text-2xl font-bold text-gray-900">$3,745</p>
               </div>
               <div className="mt-6 pt-4 border-t border-gray-200">
                 <p className="text-sm text-gray-500">Andrew's fee</p>

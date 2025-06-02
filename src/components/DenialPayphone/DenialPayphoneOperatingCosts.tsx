@@ -37,12 +37,12 @@ export default function DenialPayphoneOperatingCosts() {
                                 <td className="border border-gray-300 px-4 py-3 text-center"></td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 px-4 py-3 text-left">Security pen</td>
+                                <td className="border border-gray-300 px-4 py-3 text-left">Security pen (increase profit by reducing theft)</td>
                                 <td className="border border-gray-300 px-4 py-3 text-right">$10</td>
                                 <td className="border border-gray-300 px-4 py-3 text-center"></td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 px-4 py-3 text-left">Clipboard</td>
+                                <td className="border border-gray-300 px-4 py-3 text-left">Clipboard with custom stationary</td>
                                 <td className="border border-gray-300 px-4 py-3 text-right">$10</td>
                                 <td className="border border-gray-300 px-4 py-3 text-center"></td>
                             </tr>
@@ -64,9 +64,14 @@ export default function DenialPayphoneOperatingCosts() {
                                     </a>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr className="line-through text-gray-400">
                                 <td className="border border-gray-300 px-4 py-3 text-left">Round trip flight (BOS &harr; LAX)</td>
                                 <td className="border border-gray-300 px-4 py-3 text-right">$500</td>
+                                <td className="border border-gray-300 px-4 py-3 text-center"></td>
+                            </tr>
+                            <tr>
+                                <td className="border border-gray-300 px-4 py-3 text-left">Shipping the phone to Boston and back to LA</td>
+                                <td className="border border-gray-300 px-4 py-3 text-right">$300</td>
                                 <td className="border border-gray-300 px-4 py-3 text-center"></td>
                             </tr>
                             <tr>
@@ -76,7 +81,7 @@ export default function DenialPayphoneOperatingCosts() {
                             </tr>
                             <tr className="bg-gray-800 text-white font-bold">
                                 <td className="border border-gray-300 px-4 py-3 text-left">Total cost</td>
-                                <td className="border border-gray-300 px-4 py-3 text-right">$3,945</td>
+                                <td className="border border-gray-300 px-4 py-3 text-right">$3,745</td>
                                 <td className="border border-gray-300 px-4 py-3 text-center"></td>
                             </tr>
                         </tbody>

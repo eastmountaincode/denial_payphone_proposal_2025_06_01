@@ -24,10 +24,7 @@ export default function DenialWebsiteSummary() {
                 Web Audio API integration to facilitate recording on desktop and mobile.
               </li>
               <li>
-                AI-powered transcription and review of recordings.
-              </li>
-              <li>
-                Email integration to send recordings and reviews to users.
+                Transcription on server. Review of recordings sent to user's email.
               </li>
             </ul>
           </div>
