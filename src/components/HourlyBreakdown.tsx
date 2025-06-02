@@ -1,6 +1,6 @@
 export default function HourlyBreakdown() {
   return (
-    <section className="h-screen w-full flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100">
+    <section id="hourly-breakdown" className="h-screen w-full flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100">
       <div className="text-center max-w-6xl px-6">
         <h1 className="text-5xl font-bold text-gray-900 mb-3"
             style={{ fontFamily: 'HeavyItalic, Impact, Arial Black, sans-serif' }}>

@@ -56,8 +56,15 @@ export default function LeadSlide({}: LeadSlideProps) {
     }
   };
 
+  const scrollToHourlyBreakdown = () => {
+    const element = document.getElementById('hourly-breakdown');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
-    <section className="h-screen w-full flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
+    <section className="h-screen w-full flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 relative">
       <div className="text-center max-w-4xl px-6">
         <h1 className="text-5xl font-bold text-gray-900 mb-3"
             style={{ fontFamily: 'HeavyItalic, Impact, Arial Black, sans-serif' }}>
@@ -97,6 +104,14 @@ export default function LeadSlide({}: LeadSlideProps) {
              </button>
          </div>
       </div>
+      
+      {/* Jump to Hourly Breakdown Button */}
+      <button 
+        onClick={scrollToHourlyBreakdown}
+        className="absolute bottom-16 right-8 border-2 border-blue-600 hover:bg-blue-600 hover:text-white text-blue-600 font-semibold py-3 px-6 rounded-lg text-sm shadow-lg z-50 cursor-pointer"
+      >
+        Jump to Hourly Breakdown
+      </button>
     </section>
   );
 } 
